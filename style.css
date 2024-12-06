@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    background-color: rgb(96, 66, 66);
+    color: rgb(249, 249, 131);
+}
+
+.internal-javascript {
+    margin-left: 20px;
+}

@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Javascript</title>
+
+    <script>
+        function myfunction() {
+            document.getElementById("demo-2").innerHTML = "This is Demo-2 paragraph with Button"
+        }
+    </script>
 </head>
+
 <body>
-   
+    <h1 id="header">Javascript Practice</h1>
+
+    <div class="internal-javascript">
+        <h1>Internal JavaScript</h1>
+
+        <!-- In HTML, JavaScript code is inserted between <script> and </script> tags. -->
+
+        <div class="demo-1-div">
+
+            <p id="demo-1"></p>
+            <script>document.getElementById('demo-1').innerHTML = "My First Javascript"; </script>
+        </div>
+
+        <div class="demo-2-div">
+            <!-- The script of this div is placed in the head section (demo-2)-->
+
+            <p id="demo-2">This is Demo-2 paragraph</p>
+            <button type="button" onclick="myfunction()">Try it!</button>
+        </div>
+
+        <div>
+            <!-- The script of this div is in the body -->
+
+            <p id="demo-3">Ahad</p>
+            <script>
+                function myfunction() {
+                    document.getElementById("demo-3").innerHTML = "Ahad Younus";
+                }
+            </script>
+            <button type="button" onclick="myfunction()">Try it!</button>
+        </div>
+        <!-- Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display. -->
+
+    </div>
+
 </body>
+
 </html>
