@@ -8,8 +8,17 @@ body {
     font-family: 'Lucida Sans Unicode', sans-serif;
     background-color: rgb(96, 66, 66);
     color: rgb(249, 249, 131);
+    margin: 0;
 }
 
+/* Internal Javascript */
+
 .internal-javascript {
+    margin-left: 20px;
+}
+
+/* External Javascript */
+
+.external-javascript {
     margin-left: 20px;
 }

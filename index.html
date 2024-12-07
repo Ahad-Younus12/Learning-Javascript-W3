@@ -50,6 +50,64 @@
 
     </div>
 
+    <div class="external-javascript">
+        <h1>External JavaScript</h1>
+
+        <div class="Output">
+
+            <div>
+                <ul>
+                    <li>
+                        <h2>Using innerHTML</h2>
+                        <p id="demo-4"></p>
+                        <script src="myscript.js"></script>
+                    </li>
+
+                    <li>
+                        <h2>Using document.write()</h2>
+                        <p id="demo-5"></p>
+                        <script>
+                            document.write(5 + 6)
+                        </script>
+                        <br>
+                        <br>
+                        <button type="button" onclick="document.write(6+10)">Don't Click. The whole Document will be
+                            deleted
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Using window.alert()</h2>
+                        <p>My first page</p>
+                        <script>
+                            alert(5 + 6)
+                        </script>
+                    </li>
+
+                    <li>
+                        <h2>Using console.log()</h2>
+                        <!-- For debugging purposes, you can call the console.log() method in the browser to display data. -->
+
+                        <p>Press F12 on your keyboard will activate debugging.</p>
+                        <p>Then select "Console" in the debugger menu.</p>
+                        <script>
+                            console.log(6 + 10)
+                        </script>
+                    </li>
+                    <li>
+                        <h2>Using window.print</h2>
+
+                        <button type="button" onclick="window.print()">Print This Page</button>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
 </body>
 
 </html>
